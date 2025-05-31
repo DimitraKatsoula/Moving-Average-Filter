@@ -1,6 +1,6 @@
-# Moving Average Filter – Python Code Examples
+# Moving Average Filter – Python and Matlab Code Examples
 
-This repository contains simple Python scripts that demonstrate how a **Moving Average Filter** works in signal processing. These scripts are ideal for beginners in physics, engineering, or data analysis who want to understand basic filtering techniques using NumPy and Matplotlib.
+This repository contains simple Python and MatLab scripts that demonstrate how a **Moving Average Filter** works in signal processing. These scripts are ideal for beginners in physics, engineering, or data analysis who want to understand basic filtering techniques using NumPy and Matplotlib. 
 
 ## What is a Moving Average Filter?
 A Moving Average Filter is a simple low-pass filter used to smooth noisy signals. It works by averaging a window of consecutive values in the input signal, effectively reducing high-frequency noise.
@@ -9,19 +9,21 @@ A Moving Average Filter is a simple low-pass filter used to smooth noisy signals
 
 ## Files in this Repository
 
-### 1. moving_average_basic.py
+### 1. Moving_Average_Filter.py 
+### 2. Moving_Average_Filter.m
 - Applies a basic moving average filter to a noisy sine wave.
 - Plots both the original noisy signal and the filtered result.
 - Window size is set to 5.
 
-### 2. moving_average_with_error_plot.py
+### 3. Moving Average Filter_difference between sin(t) and filtered signal (error).py
+### 4. Moving Average Filter_difference between sin(t) and filtered signal (error).m
 - Expands on the basic filter example.
 - Plots the **difference between the ideal signal** (sin(t)) and the filtered signal to visualize the error.
 - Useful for understanding how closely the filter approximates the noise-free signal.
 
 ---
 
-## How to Run
+## How to Run (Python)
 1. Make sure you have Python 3 installed.
 2. Install required libraries (numpy for numerical calculations, matplotlib for plotting)
 
